@@ -7,8 +7,16 @@ The output of the program is a learning curve and a .txt file that includes the 
 
 Learning curve for dataset 1:
 
+![](1.png)
+
 Learning curve for dataset 2:
+
+![Learning curve for dataset 1:](2.png)
 
 Learning curve for dataset 3:
 
+![Learning curve for dataset 1:](3.png)
+
 Learning curve for dataset 4:
+
+![Learning curve for dataset 1:](4.png)
