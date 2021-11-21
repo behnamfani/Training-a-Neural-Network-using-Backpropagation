@@ -1,5 +1,5 @@
 # Training-a-MLP_Neural-Network-using-Backpropagation
-Team work project with
+Team work project with https://github.com/maahnaaz
 
 In this project, we created a neural network, and based on the data files, we trained the network using Backpropagation from the scratch.
 
