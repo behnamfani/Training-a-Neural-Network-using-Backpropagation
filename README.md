@@ -29,4 +29,4 @@ Learning curve for dataset 4:
 ![Learning curve for dataset 1:](4.png)
 
 
-[1]: Dr. Nils Goerke: Technical Neural Networks, 02: Perzeptron, Multi Layer Perzeptron and Backpropagation of Error, 18.10.2033, MA-INF 4204, WS20/21
+[1]: Dr. Nils Goerke: Technical Neural Networks, 02: Perzeptron, Multi Layer Perzeptron and Backpropagation of Error, 18.10.2033, MA-INF 4204, WS20/21, University of Bonn
