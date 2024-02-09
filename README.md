@@ -14,19 +14,19 @@ The output of the program is a learning curve and a .txt file that includes the 
 
 Learning curve for dataset 1:
 
-![](1.png)
+![](reports/1.png)
 
 Learning curve for dataset 2:
 
-![Learning curve for dataset 1:](2.png)
+![Learning curve for dataset 1:](reports/2.png)
 
 Learning curve for dataset 3:
 
-![Learning curve for dataset 1:](3.png)
+![Learning curve for dataset 1:](reports/3.png)
 
 Learning curve for dataset 4:
 
-![Learning curve for dataset 1:](4.png)
+![Learning curve for dataset 1:](reports/4.png)
 
 
 [1]: Dr. Nils Goerke: Technical Neural Networks, 02: Perzeptron, Multi Layer Perzeptron and Backpropagation of Error, 18.10.2033, MA-INF 4204, WS20/21, University of Bonn
