@@ -1,0 +1,1 @@
+nbviewer for rendering: [https://nbviewer.org/github/behnamfani/Training-a-Neural-Network-using-Backpropagation/blob/main/notebook/MLP.ipynb](https://nbviewer.org/github/behnamfani/Training-a-Neural-Network-using-Backpropagation/blob/main/notebook/MLP.ipynb)
