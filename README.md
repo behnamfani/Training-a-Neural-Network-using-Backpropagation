@@ -1,32 +1,49 @@
-# Training-a-MLP_Neural-Network-using-Backpropagation
-Team work project with https://github.com/maahnaaz
+# Training a Multi-Layer Perceptron (MLP) Neural Network using Backpropagation
 
-In this project, we created a neural network, and based on the data files, we trained the network using Backpropagation from the scratch. Given an input, the network computes/predicts the output in the Feedforward process. If we are training the model, then the difference of target output and predicted output are backpropagated to the network to update the weights. (Single-step learning)
+A **team project** [https://github.com/Mahnaz-Mirhaj](https://github.com/Mahnaz-Mirhaj) implementing a **Multi-Layer Perceptron (MLP)** neural network from scratch using **Backpropagation**. The network is trained to predict outputs for given inputs, with weight updates based on the difference between the target and predicted outputs (single-step learning).
 
-You can see delta rule for updating weights here: [1]
+---
 
-![](delta_rule.png)
+## 📌 Overview
+- **Feedforward Process:** Computes/predicts the output for a given input.
+- **Backpropagation:** Updates weights using the difference between the target and predicted outputs.
+- **Error Function:**
+  \[
+  \text{Error} = \frac{\sum (y - h(x))^2}{\text{number of inputs}}
+  \]
+  where \( y \) is the desired output and \( h(x) \) is the network's output.
 
-Error function = sum(y - h(x))^2 / # inputs which y is desired output and h(x) is the output of the network.
+- **Delta Rule for Weight Updates:**
+  ![Delta Rule](reports/delta_rule.png)
+  *(Source: Dr. Nils Goerke, Technical Neural Networks, University of Bonn, WS20/21)*
 
-A user can change the number of hidden layers, the number of neurons in each hidden layer, and the transfer functions (Logistic Function, Tanh, Identity) in each layer.
-The output of the program is a learning curve and a .txt file that includes the global error of every epoch. 
+---
 
-Learning curve for dataset 1:
+## 🔧 Customizable Architecture
+Users can configure:
+- **Number of hidden layers**
+- **Number of neurons in each hidden layer**
+- **Transfer functions** for each layer:
+  - Logistic Function
+  - Tanh
+  - Identity
 
-![](reports/1.png)
+---
 
-Learning curve for dataset 2:
+## 📈 Outputs
+The program generates:
+- **Learning curves** for each dataset.
+- A `.txt` file containing the **global error** for every epoch.
 
-![Learning curve for dataset 1:](reports/2.png)
+### Learning Curves
+| Dataset | Learning Curve |
+|---------|----------------|
+| 1       | ![Dataset 1](reports/1.png) |
+| 2       | ![Dataset 2](reports/2.png) |
+| 3       | ![Dataset 3](reports/3.png) |
+| 4       | ![Dataset 4](reports/4.png) |
 
-Learning curve for dataset 3:
+---
 
-![Learning curve for dataset 1:](reports/3.png)
-
-Learning curve for dataset 4:
-
-![Learning curve for dataset 1:](reports/4.png)
-
-
-[1]: Dr. Nils Goerke: Technical Neural Networks, 02: Perzeptron, Multi Layer Perzeptron and Backpropagation of Error, 18.10.2033, MA-INF 4204, WS20/21, University of Bonn
+## 📚 Reference
+[1] Dr. Nils Goerke: *Technical Neural Networks, 02: Perzeptron, Multi Layer Perzeptron and Backpropagation of Error*, 18.10.2033, MA-INF 4204, WS20/21, University of Bonn.
